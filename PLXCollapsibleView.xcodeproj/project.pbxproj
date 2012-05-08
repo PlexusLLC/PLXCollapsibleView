@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA5813331558471B0097D0ED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5813321558471B0097D0ED /* Cocoa.framework */; };
+		DA58133D1558471B0097D0ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA58133B1558471B0097D0ED /* InfoPlist.strings */; };
+		DA58133F1558471B0097D0ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58133E1558471B0097D0ED /* main.m */; };
+		DA5813431558471B0097D0ED /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DA5813411558471B0097D0ED /* Credits.rtf */; };
+		DA5813461558471B0097D0ED /* PLXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5813451558471B0097D0ED /* PLXAppDelegate.m */; };
+		DA5813491558471B0097D0ED /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA5813471558471B0097D0ED /* MainMenu.xib */; };
+		DA581356155847E60097D0ED /* PLXCollapsibleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA581351155847E60097D0ED /* PLXCollapsibleViewController.m */; };
+		DA581357155847E60097D0ED /* PLXHuggingSuperview.m in Sources */ = {isa = PBXBuildFile; fileRef = DA581353155847E60097D0ED /* PLXHuggingSuperview.m */; };
+		DA581358155847E60097D0ED /* PLXHuggingSuperviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA581355155847E60097D0ED /* PLXHuggingSuperviewController.m */; };
+		DA58136815584E5E0097D0ED /* StaticView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA58136615584E5E0097D0ED /* StaticView1.xib */; };
+		DA58136915584E5E0097D0ED /* StaticView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA58136715584E5E0097D0ED /* StaticView2.xib */; };
+		DA58136D15584E8A0097D0ED /* CollapsibleView1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58136B15584E8A0097D0ED /* CollapsibleView1Controller.m */; };
+		DA58136E15584E8A0097D0ED /* CollapsibleView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA58136C15584E8A0097D0ED /* CollapsibleView1.xib */; };
+		DA58137215584EA80097D0ED /* CollapsibleView2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58137015584EA80097D0ED /* CollapsibleView2Controller.m */; };
+		DA58137315584EA80097D0ED /* CollapsibleView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA58137115584EA80097D0ED /* CollapsibleView2.xib */; };
+		DA58137615584F640097D0ED /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58137515584F640097D0ED /* MainViewController.m */; };
+		DA58137915585CE70097D0ED /* StaticView1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58137815585CE70097D0ED /* StaticView1Controller.m */; };
+		DA58137C15585CFD0097D0ED /* StaticView2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58137B15585CFD0097D0ED /* StaticView2Controller.m */; };
+		DAF4FD8215589EEE000A67CC /* PLXStaticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF4FD8115589EEE000A67CC /* PLXStaticViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA58132E1558471B0097D0ED /* PLXCollapsibleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLXCollapsibleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5813321558471B0097D0ED /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DA5813351558471B0097D0ED /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DA5813361558471B0097D0ED /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DA5813371558471B0097D0ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA58133A1558471B0097D0ED /* PLXCollapsibleView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PLXCollapsibleView-Info.plist"; sourceTree = "<group>"; };
+		DA58133C1558471B0097D0ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA58133E1558471B0097D0ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA5813401558471B0097D0ED /* PLXCollapsibleView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PLXCollapsibleView-Prefix.pch"; sourceTree = "<group>"; };
+		DA5813421558471B0097D0ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DA5813441558471B0097D0ED /* PLXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLXAppDelegate.h; sourceTree = "<group>"; };
+		DA5813451558471B0097D0ED /* PLXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLXAppDelegate.m; sourceTree = "<group>"; };
+		DA5813481558471B0097D0ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DA581350155847E60097D0ED /* PLXCollapsibleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLXCollapsibleViewController.h; sourceTree = "<group>"; };
+		DA581351155847E60097D0ED /* PLXCollapsibleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLXCollapsibleViewController.m; sourceTree = "<group>"; };
+		DA581352155847E60097D0ED /* PLXHuggingSuperview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLXHuggingSuperview.h; sourceTree = "<group>"; };
+		DA581353155847E60097D0ED /* PLXHuggingSuperview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLXHuggingSuperview.m; sourceTree = "<group>"; };
+		DA581354155847E60097D0ED /* PLXHuggingSuperviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLXHuggingSuperviewController.h; sourceTree = "<group>"; };
+		DA581355155847E60097D0ED /* PLXHuggingSuperviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLXHuggingSuperviewController.m; sourceTree = "<group>"; };
+		DA58136615584E5E0097D0ED /* StaticView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StaticView1.xib; sourceTree = "<group>"; };
+		DA58136715584E5E0097D0ED /* StaticView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StaticView2.xib; sourceTree = "<group>"; };
+		DA58136A15584E8A0097D0ED /* CollapsibleView1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollapsibleView1Controller.h; sourceTree = "<group>"; };
+		DA58136B15584E8A0097D0ED /* CollapsibleView1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollapsibleView1Controller.m; sourceTree = "<group>"; };
+		DA58136C15584E8A0097D0ED /* CollapsibleView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollapsibleView1.xib; sourceTree = "<group>"; };
+		DA58136F15584EA80097D0ED /* CollapsibleView2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollapsibleView2Controller.h; sourceTree = "<group>"; };
+		DA58137015584EA80097D0ED /* CollapsibleView2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollapsibleView2Controller.m; sourceTree = "<group>"; };
+		DA58137115584EA80097D0ED /* CollapsibleView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollapsibleView2.xib; sourceTree = "<group>"; };
+		DA58137415584F640097D0ED /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DA58137515584F640097D0ED /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DA58137715585CE70097D0ED /* StaticView1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticView1Controller.h; sourceTree = "<group>"; };
+		DA58137815585CE70097D0ED /* StaticView1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticView1Controller.m; sourceTree = "<group>"; };
+		DA58137A15585CFD0097D0ED /* StaticView2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticView2Controller.h; sourceTree = "<group>"; };
+		DA58137B15585CFD0097D0ED /* StaticView2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticView2Controller.m; sourceTree = "<group>"; };
+		DAF4FD8015589EEE000A67CC /* PLXStaticViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLXStaticViewController.h; sourceTree = "<group>"; };
+		DAF4FD8115589EEE000A67CC /* PLXStaticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLXStaticViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA58132B1558471B0097D0ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5813331558471B0097D0ED /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA5813231558471B0097D0ED = {
+			isa = PBXGroup;
+			children = (
+				DA58134F155847B50097D0ED /* PLXCollapsibleView Classes */,
+				DA5813381558471B0097D0ED /* Example */,
+				DA5813311558471B0097D0ED /* Frameworks */,
+				DA58132F1558471B0097D0ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA58132F1558471B0097D0ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA58132E1558471B0097D0ED /* PLXCollapsibleView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA5813311558471B0097D0ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA5813321558471B0097D0ED /* Cocoa.framework */,
+				DA5813341558471B0097D0ED /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA5813341558471B0097D0ED /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA5813351558471B0097D0ED /* AppKit.framework */,
+				DA5813361558471B0097D0ED /* CoreData.framework */,
+				DA5813371558471B0097D0ED /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DA5813381558471B0097D0ED /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				DA58136215584DB90097D0ED /* View Controllers */,
+				DA58136115584DAD0097D0ED /* Views */,
+				DA5813441558471B0097D0ED /* PLXAppDelegate.h */,
+				DA5813451558471B0097D0ED /* PLXAppDelegate.m */,
+				DA5813391558471B0097D0ED /* Supporting Files */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		DA5813391558471B0097D0ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA58133A1558471B0097D0ED /* PLXCollapsibleView-Info.plist */,
+				DA58133B1558471B0097D0ED /* InfoPlist.strings */,
+				DA58133E1558471B0097D0ED /* main.m */,
+				DA5813401558471B0097D0ED /* PLXCollapsibleView-Prefix.pch */,
+				DA5813411558471B0097D0ED /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA58134F155847B50097D0ED /* PLXCollapsibleView Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DA581352155847E60097D0ED /* PLXHuggingSuperview.h */,
+				DA581353155847E60097D0ED /* PLXHuggingSuperview.m */,
+				DA581354155847E60097D0ED /* PLXHuggingSuperviewController.h */,
+				DA581355155847E60097D0ED /* PLXHuggingSuperviewController.m */,
+				DA581350155847E60097D0ED /* PLXCollapsibleViewController.h */,
+				DA581351155847E60097D0ED /* PLXCollapsibleViewController.m */,
+				DAF4FD8015589EEE000A67CC /* PLXStaticViewController.h */,
+				DAF4FD8115589EEE000A67CC /* PLXStaticViewController.m */,
+			);
+			name = "PLXCollapsibleView Classes";
+			sourceTree = "<group>";
+		};
+		DA58136115584DAD0097D0ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA58136615584E5E0097D0ED /* StaticView1.xib */,
+				DA58136C15584E8A0097D0ED /* CollapsibleView1.xib */,
+				DA58136715584E5E0097D0ED /* StaticView2.xib */,
+				DA58137115584EA80097D0ED /* CollapsibleView2.xib */,
+				DA5813471558471B0097D0ED /* MainMenu.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DA58136215584DB90097D0ED /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA58137415584F640097D0ED /* MainViewController.h */,
+				DA58137515584F640097D0ED /* MainViewController.m */,
+				DA58136A15584E8A0097D0ED /* CollapsibleView1Controller.h */,
+				DA58136B15584E8A0097D0ED /* CollapsibleView1Controller.m */,
+				DA58136F15584EA80097D0ED /* CollapsibleView2Controller.h */,
+				DA58137015584EA80097D0ED /* CollapsibleView2Controller.m */,
+				DA58137715585CE70097D0ED /* StaticView1Controller.h */,
+				DA58137815585CE70097D0ED /* StaticView1Controller.m */,
+				DA58137A15585CFD0097D0ED /* StaticView2Controller.h */,
+				DA58137B15585CFD0097D0ED /* StaticView2Controller.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA58132D1558471B0097D0ED /* PLXCollapsibleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA58134C1558471B0097D0ED /* Build configuration list for PBXNativeTarget "PLXCollapsibleView" */;
+			buildPhases = (
+				DA58132A1558471B0097D0ED /* Sources */,
+				DA58132B1558471B0097D0ED /* Frameworks */,
+				DA58132C1558471B0097D0ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PLXCollapsibleView;
+			productName = PLXAccordionView;
+			productReference = DA58132E1558471B0097D0ED /* PLXCollapsibleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA5813251558471B0097D0ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PLX;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Plexus Publishing, LLC";
+			};
+			buildConfigurationList = DA5813281558471B0097D0ED /* Build configuration list for PBXProject "PLXCollapsibleView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA5813231558471B0097D0ED;
+			productRefGroup = DA58132F1558471B0097D0ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA58132D1558471B0097D0ED /* PLXCollapsibleView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA58132C1558471B0097D0ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA58133D1558471B0097D0ED /* InfoPlist.strings in Resources */,
+				DA5813431558471B0097D0ED /* Credits.rtf in Resources */,
+				DA5813491558471B0097D0ED /* MainMenu.xib in Resources */,
+				DA58136815584E5E0097D0ED /* StaticView1.xib in Resources */,
+				DA58136915584E5E0097D0ED /* StaticView2.xib in Resources */,
+				DA58136E15584E8A0097D0ED /* CollapsibleView1.xib in Resources */,
+				DA58137315584EA80097D0ED /* CollapsibleView2.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA58132A1558471B0097D0ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA58133F1558471B0097D0ED /* main.m in Sources */,
+				DA5813461558471B0097D0ED /* PLXAppDelegate.m in Sources */,
+				DA581356155847E60097D0ED /* PLXCollapsibleViewController.m in Sources */,
+				DA581357155847E60097D0ED /* PLXHuggingSuperview.m in Sources */,
+				DA581358155847E60097D0ED /* PLXHuggingSuperviewController.m in Sources */,
+				DA58136D15584E8A0097D0ED /* CollapsibleView1Controller.m in Sources */,
+				DA58137215584EA80097D0ED /* CollapsibleView2Controller.m in Sources */,
+				DA58137615584F640097D0ED /* MainViewController.m in Sources */,
+				DA58137915585CE70097D0ED /* StaticView1Controller.m in Sources */,
+				DA58137C15585CFD0097D0ED /* StaticView2Controller.m in Sources */,
+				DAF4FD8215589EEE000A67CC /* PLXStaticViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA58133B1558471B0097D0ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA58133C1558471B0097D0ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DA5813411558471B0097D0ED /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA5813421558471B0097D0ED /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DA5813471558471B0097D0ED /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA5813481558471B0097D0ED /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA58134A1558471B0097D0ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DA58134B1558471B0097D0ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DA58134D1558471B0097D0ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/PLXCollapsibleView-Prefix.pch";
+				INFOPLIST_FILE = "Example/PLXCollapsibleView-Info.plist";
+				PRODUCT_NAME = PLXCollapsibleView;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA58134E1558471B0097D0ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/PLXCollapsibleView-Prefix.pch";
+				INFOPLIST_FILE = "Example/PLXCollapsibleView-Info.plist";
+				PRODUCT_NAME = PLXCollapsibleView;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA5813281558471B0097D0ED /* Build configuration list for PBXProject "PLXCollapsibleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA58134A1558471B0097D0ED /* Debug */,
+				DA58134B1558471B0097D0ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA58134C1558471B0097D0ED /* Build configuration list for PBXNativeTarget "PLXCollapsibleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA58134D1558471B0097D0ED /* Debug */,
+				DA58134E1558471B0097D0ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA5813251558471B0097D0ED /* Project object */;
+}
